@@ -1,0 +1,100 @@
+body{
+  background: #A1FFCE;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FAFFD1, #A1FFCE);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FAFFD1, #A1FFCE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ 
+}
+.wholecard{
+
+}
+.header{
+  font-size: 8vh;
+  text-align: center;
+}
+.smallheader{
+  margin-top: -5vh;
+  font-size: 5vh;
+  text-align: center;
+}
+.info{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.input{
+  display: flex;
+  justify-self: center;
+  padding: 1vh 4vh;
+  width: 50vh;
+  height: 4vh;
+  border-radius: 4vh;
+  border: white;
+  box-shadow: 1px 3px 10px black;
+}
+ .addbtn {
+  margin-left: -4vh;
+  width: 15vh;
+  height: 7vh;
+  border-radius: 4vh;
+  border: none;
+  background-color: #ffffff;
+  box-shadow: 1px 3px 10px black;
+  cursor: pointer;
+  
+}
+.darkbtn{
+  background-color: transparent;
+  margin: 5vh 2vh;
+  border: none;
+  display: flex;
+  justify-self: end;
+  cursor: pointer;
+}
+.dark-icon{
+  width: 5vh;
+  justify-self: end;
+}
+
+.result {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* center children horizontally */
+  margin-top: 3vh;
+  gap: 2vh;
+}
+.input::placeholder {
+  color: black;
+}
+
+
+.display{
+  text-align: center;
+}
+
+.singlediv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  border-radius: 30px;
+  padding: 2vh;
+  width: 90%;
+  max-width: 500px;
+  height: 4vh;
+  box-shadow: 1vh 1vh 0.5vh rgba(0, 0, 0, 0.2);
+  
+}
+.singlediv p{
+  font-size: large;
+}
+
+.deletebtn{
+  border: none;
+  border-radius: 4vh;
+  width: 5vh;
+  height: 5vh;
+}
+.deleteicon{
+  width: 3vh;
+  height: 3vh;
+}

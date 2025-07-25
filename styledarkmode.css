@@ -1,0 +1,48 @@
+
+
+/* change font color */
+/* change icon */
+
+/* DARK MODE STYLING */
+body.darkmode {
+background: #232526;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #414345, #232526); 
+background: linear-gradient(to right, #414345, #232526);
+  color: white;       /* light text color */
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.darkmode .header,
+.darkmode .smallheader {
+  color: white;
+}
+.darkmode ::placeholder{
+  color: white;
+}
+.darkmode .input {
+  background-color: #333;
+  color: white;
+  border: none;
+}
+
+.darkmode .addbtn {
+  background-color: #444;
+  color: white;
+}
+
+.darkmode .singlediv {
+  background-color: #333;
+  color: white;
+}
+
+.darkmode .deletebtn {
+  background-color:white;
+}
+.darkmode p{
+  color: white;
+}
+.darkmode .singlediv{
+  box-shadow: 1px 5px 1vh black;
+}
